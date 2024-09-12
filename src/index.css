@@ -1,0 +1,117 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.App-header h1{
+  margin: 20px 0;
+}
+
+.App-header h1 a{
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.searchBar{
+  font-size: 25px;
+}
+
+.searchBar input{
+  font-size: 15px;
+  margin: 10px 2px;
+  padding: 5px 20px;
+  outline-style: none;
+  border-radius: 5px 0 5px 5px;
+}
+
+.searchBar input::{
+  border: none;
+}
+
+.searchBar button{
+  font-size: 15px;
+  margin: 10px 0;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px 5px 5px 0;
+}
+
+.searchBar button:hover{
+  background-color: antiquewhite;
+}
+
+
+.search-box{
+  background: linear-gradient(rgb(251, 101, 101), rgb(73, 73, 128));
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.search-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.search-box>img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.listBox{
+  margin-bottom: 30px;
+
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  
+}
+
+li {
+  background: linear-gradient(rgb(251, 101, 101), rgb(73, 73, 128));
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
